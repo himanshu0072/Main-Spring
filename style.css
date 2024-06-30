@@ -59,7 +59,7 @@
 
 .headerImage img{
     width: 100%;
-    /* position: absolute; */
+   
 }
 
 
@@ -67,8 +67,9 @@
 .mapSection{
     border: 1px solid grey;
     padding: 2%;
-    margin: 10%;
+    margin-inline: 10%;
     margin-bottom: 1%;
+    margin-top: 4%;
 }
 
 .contactSection {
@@ -175,7 +176,6 @@
 }
 
 .footer .column {
-    /* text-align: center */
     padding: 10px 20px;
 }
 
@@ -215,37 +215,37 @@
 
 
 .background-image {
-    background-color: #ADD8E6; /* Light blue background */
+    background-color: #ADD8E6; 
     position: relative;
-    height: 300px; /* Adjust as needed */
+    height: 300px;
     width: 100%;
     overflow: hidden;
   }
   .abstract-shape {
-    background-image: url('./setting.jpg'); /* Darker blue shape */
+    background-image: url('./setting.jpg');
     background-repeat: no-repeat;
-    width: 100px; /* Adjust as needed */
-    height: 100px; /* Adjust as needed */
+    width: 100px; 
+    height: 100px; 
     position: absolute;
     right: 0;
     bottom: 0;
-    /* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); Abstract shape */
+    
   }
   .address-box {
-    background-color: #fff; /* White background */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Drop shadow effect */
-    padding: 20px; /* Adjust as needed */
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px; 
     position: absolute;
     transform: translateX(-50%);
-    top: 100px; /* Adjust as needed */
-    left: 50px; /* Adjust as needed */
+    top: 100px;
+    left: 50px;
     z-index: 10;
   }
 
   .contactSection {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: start; /* Ensure alignment at the top */
+    align-items: start;
     gap: 5%;
     padding: 2% 5%;
 }
@@ -263,7 +263,7 @@
 .contactSection .right {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Align h2 to the top */
+    justify-content: flex-start;
 }
 
 #blue {
@@ -271,31 +271,31 @@
 }
 
 .background-image {
-    background-color: #ADD8E6; /* Light blue background */
+    background-color: #ADD8E6; 
     position: relative;
-    height: 300px; /* Adjust as needed */
+    height: 300px; 
     width: 100%;
     overflow: hidden;
 }
 
 .abstract-shape {
-    background-image: url('./setting.jpg'); /* Darker blue shape */
+    background-image: url('./setting.jpg'); 
     background-repeat: no-repeat;
-    width: 100px; /* Adjust as needed */
-    height: 100px; /* Adjust as needed */
+    width: 100px; 
+    height: 100px; 
     position: absolute;
     right: 0;
     bottom: 0;
 }
 
 .address-box {
-    background-color: #fff; /* White background */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Drop shadow effect */
-    padding: 20px; /* Adjust as needed */
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px; 
     position: absolute;
     transform: translateX(-50%);
-    top: 150px; /* Adjust as needed */
-    left: 50px; /* Adjust as needed */
+    top: 150px; 
+    left: 50px; 
     z-index: 10;
 }
 
@@ -317,4 +317,10 @@
 
 .btn-custom:hover {
     background-color: #0f8fd1;
+}
+
+
+.navigator{
+    margin-inline: 10%;
+    margin-top: 3%;
 }
