@@ -1,0 +1,320 @@
+.headerContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20%;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.navbar{
+    margin-inline: 10%;
+    margin-top: 0%;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 0;
+}
+
+.socialSection{
+    text-align: right;
+    /* margin: 2%; */
+    padding: 2%;
+    margin-left: 30%;
+    
+}
+#textBlue{
+    color: blue;
+}
+.socialContainer svg{
+    /* border-radius: 50%; */
+    padding: 3%;
+    border: 2px solid grey;
+    border-radius: 50%;
+    
+}
+
+.socialContainer svg:hover{
+    background-color: aqua;
+    border-radius: 50%;
+    padding: 3%;
+}
+.headerImage {
+    background-image: url('./bgimage.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vh; /* Adjust height as needed */
+    position: relative;
+}
+
+.headerData {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.headerImage img{
+    width: 100%;
+    /* position: absolute; */
+}
+
+
+
+.mapSection{
+    border: 1px solid grey;
+    padding: 2%;
+    margin: 10%;
+    margin-bottom: 1%;
+}
+
+.contactSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5%;
+    position: relative;
+    padding: 2% 5%;
+}
+
+.contactSection h1 {
+    font-size: 4vh;
+    text-align: center;
+    font-weight: bold;
+}
+
+.left {
+    padding: 2%;
+}
+
+.right {
+    padding: 2%;
+    position: relative;
+}
+
+#blue {
+    color: #14b1f5;
+}
+
+.contactSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5%;
+    padding: 2% 5%;
+}
+
+.contactSection h1 {
+    font-size: 4vh;
+    text-align: center;
+    font-weight: bold;
+}
+
+.left {
+    padding: 2%;
+}
+.right{
+    margin-left: 10%;
+}
+#blue {
+    color: #14b1f5;
+}
+
+.locationSection {
+    background-image: url('./setting.jpg');
+    background-size: cover;
+    background-size: 500px;
+    background-position: center;
+    height: 100%;
+    position: relative;
+    padding: 2%;
+    z-index: 0;
+}
+
+.address {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: -40%;
+    transform: translateY(-50%);
+    z-index: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-control {
+    padding: .75rem;
+}
+
+.btn-custom {
+    background-color: #14b1f5;
+    color: white;
+    border: none;
+    padding: .75rem 1.5rem;
+    font-size: 1rem;
+}
+
+.btn-custom:hover {
+    background-color: #0f8fd1;
+}
+
+
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+.footer .column {
+    /* text-align: center */
+    padding: 10px 20px;
+}
+
+.footer .logo img {
+    max-width: 100px;
+}
+.contact-details{
+    border-left: 2 px solid black;
+}
+
+.footer .contact-details p, .footer .address p {
+    margin: 0;
+}
+
+.footer .social-links a {
+    color: #333;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.footer .social-links a:hover {
+    color: #14b1f5;
+}
+
+.companyLogo{
+    width: 80%;
+}
+
+.address2{
+    border-right: 2px solid grey;
+}
+.footeraddress{
+    margin-left: 3%;
+    padding-left: 3%;
+}
+
+
+
+.background-image {
+    background-color: #ADD8E6; /* Light blue background */
+    position: relative;
+    height: 300px; /* Adjust as needed */
+    width: 100%;
+    overflow: hidden;
+  }
+  .abstract-shape {
+    background-image: url('./setting.jpg'); /* Darker blue shape */
+    background-repeat: no-repeat;
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    /* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); Abstract shape */
+  }
+  .address-box {
+    background-color: #fff; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Drop shadow effect */
+    padding: 20px; /* Adjust as needed */
+    position: absolute;
+    transform: translateX(-50%);
+    top: 100px; /* Adjust as needed */
+    left: 50px; /* Adjust as needed */
+    z-index: 10;
+  }
+
+  .contactSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start; /* Ensure alignment at the top */
+    gap: 5%;
+    padding: 2% 5%;
+}
+
+.contactSection .left, .contactSection .right {
+    padding: 2%;
+}
+
+.contactSection .left h1, .contactSection .right h2 {
+    font-size: 4vh;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contactSection .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align h2 to the top */
+}
+
+#blue {
+    color: #14b1f5;
+}
+
+.background-image {
+    background-color: #ADD8E6; /* Light blue background */
+    position: relative;
+    height: 300px; /* Adjust as needed */
+    width: 100%;
+    overflow: hidden;
+}
+
+.abstract-shape {
+    background-image: url('./setting.jpg'); /* Darker blue shape */
+    background-repeat: no-repeat;
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.address-box {
+    background-color: #fff; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Drop shadow effect */
+    padding: 20px; /* Adjust as needed */
+    position: absolute;
+    transform: translateX(-50%);
+    top: 150px; /* Adjust as needed */
+    left: 50px; /* Adjust as needed */
+    z-index: 10;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-control {
+    padding: .75rem;
+}
+
+.btn-custom {
+    background-color: #14b1f5;
+    color: white;
+    border: none;
+    padding: .75rem 1.5rem;
+    font-size: 1rem;
+}
+
+.btn-custom:hover {
+    background-color: #0f8fd1;
+}
